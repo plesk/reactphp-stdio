@@ -1,5 +1,5 @@
 {
-    "name": "clue/stdio-react",
+    "name": "plesk/stdio-react",
     "description": "Async, event-driven console input & output (STDIN, STDOUT) for truly interactive CLI applications, built on top of ReactPHP",
     "keywords": ["stdio", "stdin", "stdout", "interactive", "CLI", "readline", "autocomplete", "autocompletion", "history", "ReactPHP", "async"],
     "homepage": "https://github.com/clue/reactphp-stdio",
@@ -34,5 +34,8 @@
         "psr-4": {
             "Clue\\Tests\\React\\Stdio\\": "tests/"
         }
+    },
+    "replace": {
+        "clue/stdio-react": "self.version"
     }
 }
